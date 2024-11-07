@@ -40,11 +40,9 @@ int main(){
     for(int u = m;u < m + n;u++){
         nums3[u] = nums2[u-m];
     }
-    //cout << "oi2\n";
     bubbleSort(nums3,m+n);
     for(int y = 0;y < m+n;y++){
         printf("%d",nums3[y]);
     }
-    //cout << nums3 << endl;
     return 0;
 }
